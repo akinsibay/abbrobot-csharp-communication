@@ -1,0 +1,14 @@
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\bin\Debug\RobotDataAPRA_V1.exe.config
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\bin\Debug\RobotDataAPRA_V1.exe
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\bin\Debug\RobotDataAPRA_V1.pdb
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\bin\Debug\ABB.Robotics.Controllers.PC.dll
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\bin\Debug\RobotStudio.Services.RobApi.dll
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\bin\Debug\ABB.Robotics.Controllers.PC.xml
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\obj\Debug\RobotDataAPRA_V1.csprojAssemblyReference.cache
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\obj\Debug\RobotDataAPRA_V1.Form1.resources
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\obj\Debug\RobotDataAPRA_V1.Properties.Resources.resources
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\obj\Debug\RobotDataAPRA_V1.csproj.GenerateResource.cache
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\obj\Debug\RobotDataAPRA_V1.csproj.CoreCompileInputs.cache
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\obj\Debug\RobotDataAPRA_V1.csproj.CopyComplete
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\obj\Debug\RobotDataAPRA_V1.exe
+C:\Users\akins\Documents\Projeler\C#\RobotDataAPRA_V1\RobotDataAPRA_V1\obj\Debug\RobotDataAPRA_V1.pdb
