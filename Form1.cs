@@ -102,20 +102,20 @@ namespace RobotDataAPRA_V1
         public void listmethod()
         {
 
-            data1 = objController.Rapid.GetTask("T_ROB1").GetModule("SWDEFUSR").GetRapidData("Version_SWDEFUSR"); //string
-            data1.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data1_ValueChanged); 
-            data2 = objController.Rapid.GetTask("T_ROB1").GetModule("URUN_M1").GetRapidData("W_00049"); //robtarget
+            ////data1 = objController.Rapid.GetTask("T_ROB1").GetModule("SWDEFUSR").GetRapidData("Version_SWDEFUSR"); //string
+            //data1.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data1_ValueChanged); 
+            data2 = objController.Rapid.GetTask("T_ROB1").GetModule("URUN_M1").GetRapidData("W_00049"); //robtarget //robot punta pozisyon bilgisi
             data2.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data2_ValueChanged);
-            data3 = objController.Rapid.GetTask("T_ROB1").GetModule("SWDEFUSR").GetRapidData("MAX_DEFLECTION"); //num
-            data3.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data3_ValueChanged);
-            data4 = objController.Rapid.GetTask("T_ROB1").GetModule("SPOTSRV").GetRapidData("nToplamAsinma"); //num
-            data4.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
-            data5 = objController.Rapid.GetTask("T_ROB1").GetModule("BASE").GetRapidData("wobj0"); //wobjdata
-            data5.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
-            data6 = objController.Rapid.GetTask("T_ROB1").GetModule("BASE").GetRapidData("load0"); //loaddata
-            data6.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
-            data7 = objController.Rapid.GetTask("T_ROB1").GetModule("HOME_KONTROL").GetRapidData("delta_position1"); //jointtarget
-            data7.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
+            //data3 = objController.Rapid.GetTask("T_ROB1").GetModule("SWDEFUSR").GetRapidData("MAX_DEFLECTION"); //num
+            //data3.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data3_ValueChanged);
+            //data4 = objController.Rapid.GetTask("T_ROB1").GetModule("SPOTSRV").GetRapidData("nToplamAsinma"); //num
+            //data4.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
+            //data5 = objController.Rapid.GetTask("T_ROB1").GetModule("BASE").GetRapidData("wobj0"); //wobjdata
+            //data5.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
+            //data6 = objController.Rapid.GetTask("T_ROB1").GetModule("BASE").GetRapidData("load0"); //loaddata
+            //data6.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
+            //data7 = objController.Rapid.GetTask("T_ROB1").GetModule("HOME_KONTROL").GetRapidData("delta_position1"); //jointtarget
+            //data7.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
             data8 = objController.Rapid.GetTask("T_ROB1").GetModule("SPOTSRV").GetRapidData("bRobot_FrezePrograminda"); //bool
             data8.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
             data9 = objController.Rapid.GetTask("T_ROB1").GetModule("SWDEFUSR").GetRapidData("spot1"); //spotdata
@@ -124,7 +124,7 @@ namespace RobotDataAPRA_V1
             data10.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
             data11 = objController.Rapid.GetTask("T_AutoBackup").GetModule("MainModule").GetRapidData("nHataKodu"); //num
             data11.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
-            data12 = objController.Rapid.GetTask("T_ROB1").GetModule("SPOTSRV").GetRapidData("force_bileme"); //forcedata
+            data12 = objController.Rapid.GetTask("T_ROB1").GetModule("SPOTSRV").GetRapidData("force_bileme"); //forcedata //firezeleme kuvveti
             data12.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
             data13 = objController.Rapid.GetTask("T_AutoBackup").GetModule("MainModule").GetRapidData("bKaynakTamamlandi"); //bool
             data13.ValueChanged += new EventHandler<DataValueChangedEventArgs>(data4_ValueChanged);
